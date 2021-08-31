@@ -1,0 +1,23 @@
+---
+layout: post
+title:  "한글 테스트"
+date:   2021-08-31 23:42:00 +0900
+categories: log
+---
+# 아 드디어 됐다
+한글만 잘되면 이제 더 걱정할 건 없다.
+
+이제 블로그 에디터를 flask로 짜서 blog.7yr.de/admin에다가 넣고
+생성/수정한 파일을 자동으로 date랑 이것저것 추가해서 마크다운으로 저장해서
+깃헙블로그에 배포하고, 나아가서 버튼누르면 자동으로 다음 블로그에 포스팅하자:
+티스토리, 블로그스팟, velog.io, 네이버 블로그, 미디움 ..
+
+모찌나 사랑해
+
+
+Check out the [7yr.de][blog.7yr.de][test.7yr.de] for more info on how to get the most 
+
+
+[7yr.de]: http://7yr.de
+[blog.7yr.de]: https://blog.7yr.de
+[test.7yr.de]: http://test.7yr.de
