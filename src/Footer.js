@@ -1,0 +1,9 @@
+const Footer = () => {
+    return (
+        <footer className="bg-black">
+            <h2>This is Footer</h2>
+        </footer>
+    )
+}
+
+export default Footer

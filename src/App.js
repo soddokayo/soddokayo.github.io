@@ -1,23 +1,30 @@
 import logo from './logo.svg';
 import './App.css';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Header from './Header';
+import Footer from './Footer';
+import Home from './Home';
+import Intro from './Intro';
+import Contact from './Contact';
 
 function App() {
+  const title_ = '박재하의 포트폴리오';
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      <div className="list">
+        <h4 className="font-bold">{title_}</h4>
+        <p>5월 15일 (월) 발행</p>
+      </div>
+
+      <BrowserRouter>
+        <Routes>
+          <Route path={"/home"} element={<Home />}></Route>
+          <Route path={"/intro"} element={<Intro />}></Route>
+          <Route path={"/contact"} element={<Contact />}></Route>
+        </Routes>
+      </BrowserRouter>
+      <Footer />
     </div>
   );
 }
