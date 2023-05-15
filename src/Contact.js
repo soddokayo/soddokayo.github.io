@@ -1,23 +1,24 @@
-import { useNavigate } from "react-router-dom";
 
 const Contact = () => {
-    const movePage = useNavigate();
-
-    function gohome() {
-        movePage('/home')
-    }
     return (
         <>
-            <h1 className="text-3xl font-bold">
-                연락처
-            </h1>
-            <h4>
-                메일주소 : pjha999@naver.com <br />
-                깃헙주소 : https://github.com/soddokayo <br />
-                포트폴리오 사이트 : https://pf.7yr.de/ <br />
-            </h4>
-            <button className="bg-transparent hover:bg-gray-700 text-gray-900 font-semibold hover:text-white py-2 px-4 border border-gray-700 hover:border-transparent rounded" 
-                onClick={gohome}>홈으로 이동</button>
+            <div className="block p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+                <h2 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                    연락처
+                </h2>
+                <div className="font-normal text-gray-700 dark:text-gray-400">
+                    <h4 className="">
+                        <br />
+                        메일주소 : pjha999@naver.com <br />
+                        <br />
+                        깃헙주소 : https://github.com/soddokayo <br />
+                        <br />
+                        포트폴리오 사이트 : https://pf.7yr.de/ <br />
+                        <br />
+                    </h4>
+
+                </div>
+            </div>
         </>
     )
 }
