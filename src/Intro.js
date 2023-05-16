@@ -20,6 +20,24 @@ const Intro = () => {
 
                 </div>
             </div>
+            <div className="block p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+                <h2 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                    관심 분야
+                </h2>
+                <div className="font-normal text-gray-700 dark:text-gray-400">
+                    <h4 className="ml-10 text-left">
+                        <br />
+                        컴퓨터 (개발) <br />
+                        <br />
+                        컴퓨터 (해킹) <br />
+                        <br />
+                        <br />
+                        음악 <br />
+                        <br />
+                    </h4>
+
+                </div>
+            </div>
         </>
     )
 }

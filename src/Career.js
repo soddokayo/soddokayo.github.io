@@ -3,6 +3,26 @@ const Career = () => {
         <>
             <div className="block p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
                 <h2 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                    학력
+                </h2>
+                <div className="font-normal text-gray-700 dark:text-gray-400">
+                    <h4 className="">
+                        <br />
+                        2010.03. ~ 2012.02. (2년) : 경산과학고등학교 / 경산 <br />
+                        주요 활동 : 학생회장, 정보과학 R&E, 정보과학 동아리, 물리학 전공 <br />
+                        <br />
+                        2012.03. ~ 2016.02. (4년) : 고려대학교 사이버국방학과 (부전공: 경제학과) / 서울 <br />
+                        주요 활동 : <a href="https://www.kitribob.kr/trainee_walk/hall">KITRI BoB BEST 10</a>, 졸업논문(CAPSTONE), CyKor(해킹 동아리) <br />
+                        <br />
+                        2021.09. ~ 2024.02.(예정) (2년 6개월) : 고려대학교 정보보안학과 (저작권디지털포렌식전공) / 서울 <br />
+                        주요 활동 : <a href="http://forensic.korea.ac.kr/">DFRC(디지털 포렌식, 이상진 교수님)</a>, <a href="https://air.korea.ac.kr/">AIRLAB(AI보안, 이상근 교수님)</a>, <a href="https://kucc.co.kr/">KUCC(컴퓨터 동아리)</a> <br />
+                        <br />
+                    </h4>
+
+                </div>
+            </div>
+            <div className="block p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+                <h2 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                     경력 기술서
                 </h2>
                 <div className="font-normal text-gray-700 dark:text-gray-400">
@@ -25,6 +45,35 @@ const Career = () => {
                         <br />
                     </h4>
 
+                </div>
+            </div>
+            <div className="block p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+                <h2 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                    대외활동
+                </h2>
+                <div className="font-normal text-gray-700 dark:text-gray-400">
+                    <h4 className="">
+                        <br />
+                        2013.07. ~ 2014.03. (8개월) KTRI Best of the Best BEST 10 <br />
+                        주요 활동 : 프로젝트(일반적 공격 방법론에 기반한 임베디드 디바이스 취약점 분석 장비 개발) <br />
+                        <br />
+                    </h4>
+                </div>
+            </div>
+            <div className="block p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+                <h2 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                    논문
+                </h2>
+                <div className="font-normal text-gray-700 dark:text-gray-400">
+                    <h4 className="">
+                        <br />
+                        네트워크 프로토콜 분류 및 특징정보 추출 기법 연구 <br />
+                        <br />
+                        비지도 학습을 이용한 네트워크 정상상태 모델링 기법 <br />
+                        <br />
+                        기본 블록 확장을 통한 !exploitable 개선 <br />
+                        <br />
+                    </h4>
                 </div>
             </div>
         </>

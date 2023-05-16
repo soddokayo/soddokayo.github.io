@@ -13,7 +13,7 @@ const Contact = () => {
                         <br />
                         깃헙주소 : https://github.com/soddokayo <br />
                         <br />
-                        포트폴리오 사이트 : https://pf.7yr.de/ <br />
+                        포트폴리오 사이트 : https://parkjackdaw.com/ <br />
                         <br />
                     </h4>
 
