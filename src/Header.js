@@ -4,8 +4,7 @@ import Career from "./Career";
 import Contact from "./Contact";
 import { ReactComponent as Logo } from './logo.svg';
 
-
-const Header = ({setComp}) => {
+const Header = ({setComp, memo}) => {
     return (
         <nav class="flex items-center justify-between flex-wrap bg-gray-100 dark:bg-gray-700 p-1">
             <div class="flex items-center flex-shrink-0 text-gray-900 dark:text-gray-300 mr-6">
@@ -20,7 +19,7 @@ const Header = ({setComp}) => {
                 <button onClick={() => setComp(Career)} class="block ml-10 lg:ml-0  mt-4 lg:inline-block lg:mt-0 font-bold hover:text-black mr-40">
                     이  력
                 </button>
-                <button onClick={() => setComp(Project)} class="block ml-10 lg:ml-0 mt-4 lg:inline-block lg:mt-0 font-bold hover:text-black mr-40">
+                <button onClick={() => setComp(Project(memo))} class="block ml-10 lg:ml-0 mt-4 lg:inline-block lg:mt-0 font-bold hover:text-black mr-40">
                     프로젝트
                 </button>
                 <button onClick={() => setComp(Contact)} class="block ml-10 lg:ml-0  mt-4 lg:inline-block lg:mt-0 font-bold hover:text-black">

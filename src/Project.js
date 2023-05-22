@@ -1,7 +1,26 @@
+const Project = (memo) => {
 
-const Project = () => {
     return (
         <>
+            <div className="block p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+                <h2 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                    프로젝트 A : 메모 앱
+                </h2>
+                <div className="font-normal text-gray-700 dark:text-gray-400">
+                    <h4 className="ml-10 text-left">
+                        <ul>
+                        {memo.map(m => (
+                            <li key={m._id}>{m.author} : {m.text}</li>
+                        ))}
+                        </ul>
+                    </h4>
+                    <form enctype="application/json" method="POST" action="http://localhost:3000/api/memo">
+                        <span class="ml-5 bg-gray-50 font-bold text-gray-800">닉네임<input name="author" value="guest" class="text-gray-300"/></span>
+                        <span class="ml-5 bg-gray-50 font-bold text-gray-800">메세지<input name="text" value="test" class="text-gray-300"/></span>
+                        <button type="submit" class="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-0 px-4 rounded ml-5">제출</button>
+                    </form>
+                </div>
+            </div>
             <div className="block p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
                 <h2 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                     프로젝트
@@ -41,10 +60,8 @@ const Project = () => {
 
                 </div>
             </div>
-            <h4 className="text-3xl font-bold">
-            </h4>
         </>
     )
 }
-export default Project;
 
+export default Project;
