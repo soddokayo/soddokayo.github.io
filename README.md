@@ -10,8 +10,8 @@ React로 제작하고 Github Pages로 배포하였습니다.
 
 Github Pages에서 하위 도메인에 대한 라우팅이 불가능한 문제를 해결하기 위해 URL 변경 없이 메뉴 이동이 가능하도록 디자인했습니다.
 
-App.js에서 div 태그, **children 속성**을 결정하는 Comp 변수(State)에 대한 set함수를 props로 전달해 메뉴 바(Header.js)에서 <br />
-이를 조작 가능하도록 개발하였습니다. -> [레퍼런스](https://velog.io/@candyroom136/react-%ED%95%A8%EC%88%98%ED%98%95%ED%95%98%EC%9C%84%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8%EC%97%90%EC%84%9C-%ED%95%A8%EC%88%98%ED%98%95%EC%83%81%EC%9C%84%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8-state%EB%B3%80%EA%B2%BD%ED%95%98%EA%B8%B0)
+App.js에서 div 태그, **children 속성**을 결정하는 Comp 변수(State)에 대한 set함수를 props로 전달해 메뉴 바(Header.js)에서 이를 <br />
+조작 가능하도록 개발하였습니다. -> [레퍼런스](https://velog.io/@candyroom136/react-%ED%95%A8%EC%88%98%ED%98%95%ED%95%98%EC%9C%84%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8%EC%97%90%EC%84%9C-%ED%95%A8%EC%88%98%ED%98%95%EC%83%81%EC%9C%84%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8-state%EB%B3%80%EA%B2%BD%ED%95%98%EA%B8%B0)
 
 
 ## 기술
