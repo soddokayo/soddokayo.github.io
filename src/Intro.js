@@ -4,10 +4,12 @@ const Intro = () => {
         <>
             <div className="block p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
                 <h2 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                    화이트해커 출신 개발자 박재하 입니다.
+                    소개
                 </h2>
                 <div className="font-normal text-gray-700 dark:text-gray-400">
                     <h4 className="ml-10 text-left">
+                        <br />
+                        화이트해커 출신 개발자 박재하 입니다. <br />
                         <br />
                         초등학교 시절부터 컴퓨터를 사랑하여 부산대 영재원과 경산과학고등학교를 거쳐, 고려대학교 사이버국방학과 재학 중 KITRI BoB를 Best10으로 마쳤으며, <br />
                         그 후 사이버전문사관(장교)로 7년을 복무했습니다. 다른 과 동기들은 정보보안전문가로 경력직 취업을 준비하고 있지만, SW를 통해 수십만명분의 노동을  <br />
@@ -23,16 +25,31 @@ const Intro = () => {
             </div>
             <div className="block p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
                 <h2 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                    학력
+                    대외활동
                 </h2>
                 <div className="font-normal text-gray-700 dark:text-gray-400">
-                    <h4 className="ml-10">
-                        <img alt="C" src="https://img.shields.io/badge/c-F05032?&style=flat-square&logo=c&logoColor=white" /> <br />
-                        <img alt="Python" src="https://img.shields.io/badge/python-3776AB?style=flat-square&logo=python&logoColor=white" /> <br />
-                        <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=JavaScript&logoColor=white" /> <br />
-                        <img alt="Linux" src="https://img.shields.io/badge/linux-FCC624?&style=flat-square&logo=linux&logoColor=black" /> <br />
+                    <h4 className="">
+                        <br />
+                        2013.07. ~ 2014.03. (8개월) KTRI Best of the Best BEST 10 <br />
+                        주요 활동 : 프로젝트(일반적 공격 방법론에 기반한 임베디드 디바이스 취약점 분석 장비 개발) <br />
+                        <br />
                     </h4>
-
+                </div>
+            </div>
+            <div className="block p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+                <h2 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                    논문
+                </h2>
+                <div className="font-normal text-gray-700 dark:text-gray-400">
+                    <h4 className="">
+                        <br />
+                        "네트워크 프로토콜 분류 및 특징정보 추출 기법 연구", 한국군사과학기술학회, 1431~1432, 2019. <br />
+                        <br />
+                        "비지도 학습을 이용한 네트워크 정상상태 모델링 기법", 한국군사과학기술학회, 1330~1331, 2019. <br />
+                        <br />
+                        "기본 블록 확장을 통한 !exploitable 개선", 한국정보과학회, 1066~1068, 2017. <br />
+                        <br />
+                    </h4>
                 </div>
             </div>
         </>
