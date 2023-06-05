@@ -1,26 +1,7 @@
-const Project = (memo) => {
+const Project = () => {
 
     return (
         <>
-            <div className="block p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
-                <h2 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                    프로젝트 A : 메모 앱
-                </h2>
-                <div className="font-normal text-gray-700 dark:text-gray-400">
-                    <h4 className="ml-10 text-left">
-                        <ul>
-                        {memo.map(m => (
-                            <li key={m._id}>{m.author} : {m.text}</li>
-                        ))}
-                        </ul>
-                    </h4>
-                    <form enctype="application/json" method="POST" action="http://localhost:3000/api/memo">
-                        <span class="ml-5 bg-gray-50 font-bold text-gray-800">닉네임<input name="author" value="guest" class="text-gray-300"/></span>
-                        <span class="ml-5 bg-gray-50 font-bold text-gray-800">메세지<input name="text" value="test" class="text-gray-300"/></span>
-                        <button type="submit" class="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-0 px-4 rounded ml-5">제출</button>
-                    </form>
-                </div>
-            </div>
             <div className="block p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
                 <h2 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                     프로젝트
@@ -29,7 +10,7 @@ const Project = (memo) => {
                     <h4 className="ml-10 text-left">
                         <br />
                         디지털 포렌식 증거 조사를 위한 수집된 문서파일의 자동 군집화 <br />
-                        담당 분야 : 개발, 실험 및 논문 작성 <br />
+                        담당 분야 : 개발, 실험 <br />
                         기술 스택 : Python(PyTorch, sklearn) <br />
                         <br />
                         포트폴리오 사이트 제작 <br />
